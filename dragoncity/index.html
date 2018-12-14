@@ -1,228 +1,308 @@
-
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
 
-<!-- Mirrored from gamezhax.com/dragoncity/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jun 2018 15:20:12 GMT -->
+
+
+<!-- Mirrored from hsworldhack.pro/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Sep 2018 21:25:37 GMT -->
+
+<!-- Mirrored from hungrycheat.club/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Oct 2018 07:01:27 GMT -->
 <head>
-        <meta name="robots" content="noindex, nofollow" />
-        <title>Dragon City Hack - Get Unlimited Gems</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- CSS -->
-		<meta property="og:image" content="../i.imgur.com/GyvBNCw.html" />
-        <link href="css/fontawesome/font-awesome.css" rel="stylesheet" />
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/bigvideo.css" rel="stylesheet" />
-        <link href="css/video-js.min.css" rel="stylesheet" />
-        <link href="css/sweet-alert.css" rel="stylesheet" />
-        <link href="css/animate.css" rel="stylesheet" />
-        <link href="css/magnific-popup.css" rel="stylesheet" />
-        <link href="css/style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-     <link rel="icon" type="image/png" href="img/favicon.ico" />
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
+	<title>Dragon City Generator Online</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="" />  
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- Open Graph Social Meta Tags-->
+	<meta property="og:title" content="" /> <!-- Title which is displayed when your site is shared on social networks -->
+	<meta property="og:description" content="" /> <!-- Website description which is displayed when your site is shared on social networks -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://" /> <!-- Your Website URL -->
+	<meta property="og:image" content="social-share-image.html" />	<!-- Absolute Path to the Image which will display, when your website is shared on social networks -->
+	<!-- Google Fonts -->
+	<link href="images/css8a7c8a7c8a7c8a7c.css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<!-- CSS -->
+	<link href="images/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="images/bootstrap.min.css" rel="stylesheet" />  
+	<link href="images/animate.css" rel="stylesheet" />
+	<link href="images/sweetalert2.min.css" rel="stylesheet" />
+	<link href="images/magnific-popup.css" rel="stylesheet" />
+	<link href="images/fancyselect.css" rel="stylesheet" />
+	<link href="images/style.css" rel="stylesheet" />	
+	<link href="images/custom-css.css" rel="stylesheet" />	
+</head>
+<body>
+	<header>
+		
+			<br /><center><img class="logo-img" src="images/logo.png" /></center> <br /> <br />
+	</header>
+	<div class="main-wrapper">		
+		<div class="row">
+			<div class="instructions-wrapper col-sm-3">	
+				<div class="instructions-panel-wrapper">
+					<div id="instructions-completion-indicator-step-1" class="instructions-completion-indicator"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+					<h4>Step 1</h4>
+					<p>Choose the amount of resources you wish to generate.</p>
+				</div>
+				<div class="instructions-panel-wrapper">
+					<div id="instructions-completion-indicator-step-2" class="instructions-completion-indicator"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+					<h4>Step 2</h4>
+					<p>Enter your Username and choose your platform where you have installed the app on.</p>
+				</div>
+				<div class="instructions-panel-wrapper">
+					<div id="instructions-completion-indicator-step-3" class="instructions-completion-indicator"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+					<h4>Step 3</h4>
+					<p>If you prove that you are a human you will find the resources on your game Account.</p>
+				</div>
+			</div>
+			<div class="generator-wrapper col-sm-9">		
+				<div class="generator-wrapper-inner panel-box-wrapper same-height-top-panel">
+					<center><div class="generator-status-panel-wrapper">
+						<div class="status-wrapper">
+						 <span class="status-label hide-second"<span class="status-separator hide-second"></span>
+							<span class="status-label hide-first">Last update:</span> <span class=" status-highlighted hide-first" id="para1"></span><span class="status-separator hide-first">|</span>
+							<span class="status-label">Server Status:</span> <span class="status status-highlighted server-status">Online</span><span class="status-separator">|</span>
+							<span class="stats">
+								<span class="status-label">Online Users:</span> <span id="online" class="status-highlighted"></span>
+							</span>
+						</div>
+					</div></center>
+					<div class="panel-overlay"></div>
+					<div id="account-information-wrapper" class="account-information-wrapper">						
+						<div class="account-information-inner-wrapper">
+							<div id="close-account-information-wrapper" class="close-account-information-wrapper"><i class="fa fa-times" aria-hidden="true"></i></div>
+							<h4>Account Informations</h4>
+							<div class="account-info-fields-wrapper">
+								<div class="account-username-wrapper">
+									<label class="generator-input-label" for="account-username">Enter your username</label>
+									<input type="text" id="account-username" class="generator-input account-input" placeholder="..." />
+								</div>	
+								<div class="account-platform-wrapper">
+									<label class="generator-input-label" for="account-platform">Platform:</label>
+									<select id="account-platform" class="generator-input f-s">																							
+										<option value="Android">Android</option>
+										<option value="iOS">iOS</option>	
+									</select>
+								</div>		
+							</div>
+							<div class="generator-button-wrapper">
+								<div class="generator-button-inner-wrapper second-step-inner-wrapper">
+									<div class="generator-button-overlay"></div>
+									<a id="second-step-button" class="generator-button second-step-button"><span class="generator-button-text">OK</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="panel-content">
+						<div class="row">
+							<div class="col-md-12">	
+								<div class="generator-header">
+									<h1>Dragon City Generator Online</h1>
+								</div>		
+							</div>
+						</div>						
+						<div id="resources-select-wrapper" class="resources-select-wrapper">
+							<div class="single-resource-wrapper row">
+								<div class="Gold-select-wrapper">
+									<div class="col-xs-1 no-padding-right responsive-button-wrapper">
+										<div class="value-button-wrapper">	
+											<div id="decrease-Gold" class="decrease-button value-button">-</div>
+										</div>										
+									</div>
+									<div class="col-xs-10 responsive-value-wrapper">
+										<h3 class="resources-title">Gold</h3>
+										<div id="Gold-amount-wrapper" class="selected-amount-wrapper">
+											<img class="resource-img" src="images/cr-go-pouch.png" />
+											<div id="Gold-amount" class="selected-amount-value">10000</div>
+											<div class="max-amount max-amount-Gold">MAX</div>
+										</div>	
+										<div id="progressBar" class="Gold-loadbar"><div></div></div>
+									</div>
+									<div class="col-xs-1 no-padding-left responsive-button-wrapper">
+										<div class="value-button-wrapper">	
+											<div id="increase-Gold" class="increase-button value-button">+</div>
+										</div>	
+									</div>	
+								</div>				
+							</div>
+							<div class="single-resource-wrapper row">
+								<div class="Diamonds-select-wrapper">
+									<div class="col-xs-1 responsive-button-wrapper no-padding-right">
+										<div class="value-button-wrapper">	
+											<div id="decrease-Diamonds" class="decrease-button value-button">-</div>	
+										</div>
+									</div>
+									<div class="col-xs-10 responsive-value-wrapper">
+										<h3 class="resources-title">Diamonds</h3>
+										<div id="Diamonds-amount-wrapper" class="selected-amount-wrapper">
+											<img class="resource-img" src="images/cr-g-barrel.png" />
+											<div id="Diamonds-amount" class="selected-amount-value">10000</div> 
+											<div class="max-amount max-amount-points">MAX</div>
+										</div>	
+										<div id="progressBarDiamonds" class="Diamonds-loadbar"><div></div></div>
+									</div>
+									<div class="col-xs-1 no-padding-left responsive-button-wrapper">	
+										<div class="value-button-wrapper">	
+											<div id="increase-Diamonds" class="increase-button value-button">+</div>
+										</div>
+									</div>	
+								</div>				
+							</div>
 
-        <!-- SEO OPTIMIZATION -->
+							<div class="row">
+								<div class="generator-button-wrapper generator-start-wrapper col-md-12">
+									<div class="generator-button-inner-wrapper">
+										<div class="generator-button-overlay"></div>
+										<a id="first-step-button" class="generator-button first-step-button"><span class="generator-button-text">Start</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="processing-wrapper" class="processing-wrapper">
+							<div class="main-console-wrapper">
+								<div class="starting-loading-wrapper">
+									<i class="icon-refresh rotating"></i>
+									<span class="starting-loading-title">Waiting ...</span>
+								</div>
+								<div id="human-verification" class="human-verification-wrapper"> <!-- Human Verification Main Wrapper -->
+									<div class="human-verification-inner-wrapper">
+										<h2>Human Verification</h2>
+										<p>Before our system can add the resources into your account, you will need to pass this human verification step.</p>
 
-        <meta name="description" content="Generate unlimited gems and gold using our Dragon City Hack and Cheats. 100% working and tested on all devices." />
-        <meta name="keywords" content="Dragon City Hack, Dragon City Cheat, Dragon City Pirater, Dragon City Astuce, Dragon City Tricher, Dragon City Gem Hack" />
+										
+									<div>
+												<center>
+<a id="abutton"  href="https://www.rabbitfiles.com/cl.php?id=ebfe417ba897262e59bffce1653a6efa" class="generator-button first-step-button" style="height:50px;width:250px">Verify</button></a>
+												</center>
+												</div>
+										</div>
+									</div>											
+								<div class="row first-console-row">
+									<div class="col-sm-6">
+										<div class="console-username-wrapper console-item-wrapper">
+											<div id="console-success-confirmation-username" class="console-success-confirmation top-right"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+											<h5>Username:</h5>
+											<span id="console-username-value" class="console-item-value"><i class="icon-refresh rotating"></i></span>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="console-platform-wrapper console-item-wrapper">	
+											<div id="console-success-confirmation-platform" class="console-success-confirmation top-right"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+											<h5>Platform:</h5>
+											<span id="console-platform-value" class="console-item-value"><i class="icon-refresh rotating"></i></span>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="console-Gold-wrapper console-item-wrapper">
+											<div id="console-success-confirmation-Gold" class="console-success-confirmation top-right"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+											<h5>Gold:</h5>
+											<div class="console-Gold-value-inner-wrapper">
+												<img class="console-resource-img" src="images/cr-go-pouch.png" />
+												<span id="console-Gold-value" class="console-item-value console-resource-value">0</span>
+											</div>	
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="console-Diamonds-wrapper console-item-wrapper">
+											<div id="console-success-confirmation-Diamonds" class="console-success-confirmation top-right"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+											<h5>Diamonds:</h5>
+											<div class="console-Diamonds-value-inner-wrapper">
+												<img class="console-resource-img" src="images/cr-g-barrel.png" />
+												<span id="console-Diamonds-value" class="console-item-value console-resource-value">0</span>
+											</div>											
+										</div>
+									</div>
+								</div>
+								<div class="row last-console-row">
+									<div class="col-sm-12">
+										<div class="console-gpslocation-wrapper console-item-wrapper">
+											<div id="console-success-confirmation-gpslocation" class="console-success-confirmation top-right"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+											
+											<span id="console-gpshack-value" class="console-item-value"><i class="icon-refresh rotating"></i></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="messages-console-wrapper">
+								<div class="console-message"></div>								
+							</div>
+							<div class="loadbar-console-wrapper">
+								<div id="progressBarConsole" class="console-loadbar"><div></div></div>
+							</div>
+						</div>
+					</div>	
+				</div>	
+			</div>			
+		</div>		
+		
+		</div>
 
-        <!-- EXTRA SEO -->
-        <meta property="og:title" content="Dragon City Hack" />
-        <meta property="og:description" content="Generate unlimited gems and gold using our Dragon City Hack and Cheats. 100% working and tested on all devices." />
-        <meta property="og:image" content="../i.imgur.com/GyvBNCw.html" />
-        <meta property="og:url" content="index-2.html" />
-        <meta property="og:type" content="website" />
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-    <body>
-        <noscript>
-            <div class="alert alert-warning alert-dismissable">
-              <strong>Warning!</strong> It seems you have JavaScript disabled, to ensure a smooth experience please turn this feature on.
-            </div>
-        </noscript>
-
-
-        <div id="loading_modal" class="mfp-hide white-popup-block">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="loader"></div>
-                    <br class="clearfix" />
-                    <p>Connecting to <strong id="m-accname">ACCNAME</strong> on <strong id="m-server">EUW</strong> server</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active g-progressbar" role="progressbar" style="width: 0%"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="gen_modal" class="mfp-hide white-popup-block">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="generator-loading">
-                        <div class="loader loader_gen"></div>
-                        <br class="clearfix" />
-                        <p class="gen-loading-msg">Please be patient</p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-success progress-bar-striped active g-progressbar" role="progressbar" style="width: 0%"></div>
-                        </div>
-                    </div>
-                    <div class="generator-verification">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="section_heading">
-                                    <h1>Human verification required</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <br class="clearfix" />
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Before our system can add the resources into your account, you will need to pass this human verification step.</p>
-								<p>In order to bypass this step you will need to download and run ONLY 1 app in 30s.</p>
-								<p>You don't need to complete any survey, just install and run.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <button onclick="window.location = 'https://www.hostedfiles.net/cl.php?id=ebfe417ba897262e59bffce1653a6efa';" class="gen-v-btn">Verify</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="img/logo.png" alt="" class="img-responsive centered-img top-logo" />
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <section class="gen-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="inside-section">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-heading">
-                                        <h1>Dragon City Online Hack</h1>
-                                        <div class="divider"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="account-connet-area">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h2>CONNECT YOUR ACCOUNT</h2>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-											 <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="usernameInput">Username Or Email</label>
-                                                    <input type="text" class="form-control" id="usernameInput" placeholder="" />
-                                                </div> </div>
-												 <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="serverInput">Select Platform</label>
-                                                    <select id="serverInput" class="form-control">
-                                                        <option value="iOS" />iOS
-                                                        <option value="Android" />Android
-                                                        <option value="Mac" />Mac
-                                                        <option value="Windows" />Windows
-                                                    </select>
-                                                </div> </div>
-		 <div class="col-md-12">
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" id="aesInput" /> Enable Encryption [AntiBAN]
-                                                    </label>
-                                                </div>
-
-                                                <div class="connect-btn-area">
-                                                    <button class="connect-button">Connect</button>
-                                                </div>  </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="gen-area area-disabled">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h2>Select Amount Of Gems</h2>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <ul class="rp-list">
-                                                    <li class="rp-select rp-1">
-                                                        <p><img src="img/gems.png" alt="" class="rp-icon" /> 199.999</p>
-                                                    </li>
-                                                    <li class="rp-select rp-2">
-                                                        <p><img src="img/gems.png" alt="" class="rp-icon" /> 499.999</p>
-                                                    </li>
-                                                    <li class="rp-select rp-3">
-                                                        <p><img src="img/gems.png" alt="" class="rp-icon" /> 999.999</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-12" style="margin-top: 8.3%;">
-                                                <div class="gen-btn-area">
-                                                    <button class="gen-button">Hack now</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p>&copy; Copyright. All rights reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <!-- Javacript Files -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/modernizr.js"></script>
-        <script src="js/video.novtt.js"></script>
-        <script src="js/bigvideo.js"></script>
-        <script src="js/jquery.backstretch.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/sweet-alert.min.js"></script>
-        <script src="js/jquery.animatecss.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/main.js"></script>
+					</div>
+				</div>
 		
 
-    </body>
+			<!-- JavaScript/jQuery -->
+			<script type="text/javascript">
+				window.onload = function() {
+					var webService = "https://www.jsonip.com/json";
+					var script = document.createElement("script");
+					script.type = "text/javascript";
+					script.src = webService + "?callback=MyIP";
+					document.getElementsByTagName("head")[0].appendChild(script);
+				};
+
+				function MyIP(response) {
+					document.getElementById("ip").innerHTML = response.ip;
+				}
+
+        // online stats
+        var eenum = 39;
+        var ee;
+
+        function dis_num2() {
+        	document.getElementById("online").innerHTML = eenum;
+        	var randWay = Math.floor(Math.random() * 3 + 1);
+        	if (randWay <= 5) {
+        		eenum = eenum + Math.floor(Math.random() * 3 + 1);;
+        	} else {
+        		eenum = eenum - Math.floor(Math.random() * 3 + 1);;
+        	}
+        	ee = setTimeout("dis_num2()", 500000);
+        }
+        dis_num2();
 
 
-<!-- Mirrored from gamezhax.com/dragoncity/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jun 2018 15:20:13 GMT -->
+        document.getElementById("para1").innerHTML = formatAMPM();
+
+        function formatAMPM() {
+        	var d = new Date(),
+
+        	hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
+        	ampm = d.getHours() >= 12 ? 'pm' : 'am',
+        	months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        	days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        	return months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear() + ' ';
+        }
+    </script>
+    <script type="text/javascript" src="images/jquery.min.js"></script>	
+    <script src="images/jquery-ui.min.js" type="text/javascript"></script>	
+    <script type="text/javascript" src="images/fancyselect.js"></script>
+    <script type="text/javascript" src="images/jquery.countto.js"></script>
+    <script type="text/javascript" src="images/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="images/validator.min.js"></script>
+    <script type="text/javascript" src="images/com.js"></script>
+    <script type="text/javascript" src="images/form-scripts.js"></script>
+    <script type="text/javascript" src="images/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="images/sticky.js"></script>
+    <script type="text/javascript" src="images/main.js"></script>
+    <script type="text/javascript" src="ludy-script.html"></script>
+</body>
+
+
+
+
+<!-- Mirrored from hsworldhack.pro/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Sep 2018 21:25:43 GMT -->
+
+<!-- Mirrored from hungrycheat.club/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Oct 2018 07:01:39 GMT -->
 </html>
